@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/paul/project/securityCam/src/common.cpp" "/home/paul/project/securityCam/build/CMakeFiles/security.dir/src/common.cpp.o"
   "/home/paul/project/securityCam/src/main.cpp" "/home/paul/project/securityCam/build/CMakeFiles/security.dir/src/main.cpp.o"
   "/home/paul/project/securityCam/src/que.cpp" "/home/paul/project/securityCam/build/CMakeFiles/security.dir/src/que.cpp.o"
+  "/home/paul/project/securityCam/src/record.cpp" "/home/paul/project/securityCam/build/CMakeFiles/security.dir/src/record.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

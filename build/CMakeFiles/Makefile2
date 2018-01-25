@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/paul/project/securityCam/build
 CMakeFiles/security.dir/all:
 	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/depend
 	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=1,2,3 "Built target security"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target security"
 .PHONY : CMakeFiles/security.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/security.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/security.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/project/securityCam/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/project/securityCam/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/security.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/project/securityCam/build/CMakeFiles 0
 .PHONY : CMakeFiles/security.dir/rule

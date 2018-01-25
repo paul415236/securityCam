@@ -123,6 +123,33 @@ security/fast:
 	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/build
 .PHONY : security/fast
 
+src/common.o: src/common.cpp.o
+
+.PHONY : src/common.o
+
+# target to build an object file
+src/common.cpp.o:
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/common.cpp.o
+.PHONY : src/common.cpp.o
+
+src/common.i: src/common.cpp.i
+
+.PHONY : src/common.i
+
+# target to preprocess a source file
+src/common.cpp.i:
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/common.cpp.i
+.PHONY : src/common.cpp.i
+
+src/common.s: src/common.cpp.s
+
+.PHONY : src/common.s
+
+# target to generate assembly for a file
+src/common.cpp.s:
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/common.cpp.s
+.PHONY : src/common.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -177,6 +204,33 @@ src/que.cpp.s:
 	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/que.cpp.s
 .PHONY : src/que.cpp.s
 
+src/record.o: src/record.cpp.o
+
+.PHONY : src/record.o
+
+# target to build an object file
+src/record.cpp.o:
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/record.cpp.o
+.PHONY : src/record.cpp.o
+
+src/record.i: src/record.cpp.i
+
+.PHONY : src/record.i
+
+# target to preprocess a source file
+src/record.cpp.i:
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/record.cpp.i
+.PHONY : src/record.cpp.i
+
+src/record.s: src/record.cpp.s
+
+.PHONY : src/record.s
+
+# target to generate assembly for a file
+src/record.cpp.s:
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/record.cpp.s
+.PHONY : src/record.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... security"
+	@echo "... src/common.o"
+	@echo "... src/common.i"
+	@echo "... src/common.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/que.o"
 	@echo "... src/que.i"
 	@echo "... src/que.s"
+	@echo "... src/record.o"
+	@echo "... src/record.i"
+	@echo "... src/record.s"
 .PHONY : help
 
 

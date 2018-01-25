@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../inc/common.h
+main.h
+-
+
 ../inc/main.h
 iostream
 -
@@ -32,11 +36,33 @@ opencv2/highgui/highgui.hpp
 main.h
 -
 
+../inc/record.h
+main.h
+-
+
+/home/paul/project/securityCam/src/common.cpp
+common.h
+-
+
 /home/paul/project/securityCam/src/main.cpp
 main.h
 /home/paul/project/securityCam/src/main.h
+common.h
+-
+que.h
+-
+record.h
+-
 
 /home/paul/project/securityCam/src/que.cpp
+que.h
+-
+
+/home/paul/project/securityCam/src/record.cpp
+record.h
+-
+common.h
+-
 que.h
 -
 

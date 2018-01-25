@@ -57,9 +57,33 @@ include CMakeFiles/security.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/security.dir/flags.make
 
+CMakeFiles/security.dir/src/record.cpp.o: CMakeFiles/security.dir/flags.make
+CMakeFiles/security.dir/src/record.cpp.o: ../src/record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/security.dir/src/record.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/security.dir/src/record.cpp.o -c /home/paul/project/securityCam/src/record.cpp
+
+CMakeFiles/security.dir/src/record.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/security.dir/src/record.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/project/securityCam/src/record.cpp > CMakeFiles/security.dir/src/record.cpp.i
+
+CMakeFiles/security.dir/src/record.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/security.dir/src/record.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/project/securityCam/src/record.cpp -o CMakeFiles/security.dir/src/record.cpp.s
+
+CMakeFiles/security.dir/src/record.cpp.o.requires:
+
+.PHONY : CMakeFiles/security.dir/src/record.cpp.o.requires
+
+CMakeFiles/security.dir/src/record.cpp.o.provides: CMakeFiles/security.dir/src/record.cpp.o.requires
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/record.cpp.o.provides.build
+.PHONY : CMakeFiles/security.dir/src/record.cpp.o.provides
+
+CMakeFiles/security.dir/src/record.cpp.o.provides.build: CMakeFiles/security.dir/src/record.cpp.o
+
+
 CMakeFiles/security.dir/src/main.cpp.o: CMakeFiles/security.dir/flags.make
 CMakeFiles/security.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/security.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/security.dir/src/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/security.dir/src/main.cpp.o -c /home/paul/project/securityCam/src/main.cpp
 
 CMakeFiles/security.dir/src/main.cpp.i: cmake_force
@@ -81,9 +105,33 @@ CMakeFiles/security.dir/src/main.cpp.o.provides: CMakeFiles/security.dir/src/mai
 CMakeFiles/security.dir/src/main.cpp.o.provides.build: CMakeFiles/security.dir/src/main.cpp.o
 
 
+CMakeFiles/security.dir/src/common.cpp.o: CMakeFiles/security.dir/flags.make
+CMakeFiles/security.dir/src/common.cpp.o: ../src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/security.dir/src/common.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/security.dir/src/common.cpp.o -c /home/paul/project/securityCam/src/common.cpp
+
+CMakeFiles/security.dir/src/common.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/security.dir/src/common.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/project/securityCam/src/common.cpp > CMakeFiles/security.dir/src/common.cpp.i
+
+CMakeFiles/security.dir/src/common.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/security.dir/src/common.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/project/securityCam/src/common.cpp -o CMakeFiles/security.dir/src/common.cpp.s
+
+CMakeFiles/security.dir/src/common.cpp.o.requires:
+
+.PHONY : CMakeFiles/security.dir/src/common.cpp.o.requires
+
+CMakeFiles/security.dir/src/common.cpp.o.provides: CMakeFiles/security.dir/src/common.cpp.o.requires
+	$(MAKE) -f CMakeFiles/security.dir/build.make CMakeFiles/security.dir/src/common.cpp.o.provides.build
+.PHONY : CMakeFiles/security.dir/src/common.cpp.o.provides
+
+CMakeFiles/security.dir/src/common.cpp.o.provides.build: CMakeFiles/security.dir/src/common.cpp.o
+
+
 CMakeFiles/security.dir/src/que.cpp.o: CMakeFiles/security.dir/flags.make
 CMakeFiles/security.dir/src/que.cpp.o: ../src/que.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/security.dir/src/que.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/security.dir/src/que.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/security.dir/src/que.cpp.o -c /home/paul/project/securityCam/src/que.cpp
 
 CMakeFiles/security.dir/src/que.cpp.i: cmake_force
@@ -107,13 +155,17 @@ CMakeFiles/security.dir/src/que.cpp.o.provides.build: CMakeFiles/security.dir/sr
 
 # Object files for target security
 security_OBJECTS = \
+"CMakeFiles/security.dir/src/record.cpp.o" \
 "CMakeFiles/security.dir/src/main.cpp.o" \
+"CMakeFiles/security.dir/src/common.cpp.o" \
 "CMakeFiles/security.dir/src/que.cpp.o"
 
 # External object files for target security
 security_EXTERNAL_OBJECTS =
 
+security: CMakeFiles/security.dir/src/record.cpp.o
 security: CMakeFiles/security.dir/src/main.cpp.o
+security: CMakeFiles/security.dir/src/common.cpp.o
 security: CMakeFiles/security.dir/src/que.cpp.o
 security: CMakeFiles/security.dir/build.make
 security: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.9
@@ -135,7 +187,7 @@ security: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.9
 security: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
 security: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 security: CMakeFiles/security.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable security"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paul/project/securityCam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable security"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/security.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,7 +195,9 @@ CMakeFiles/security.dir/build: security
 
 .PHONY : CMakeFiles/security.dir/build
 
+CMakeFiles/security.dir/requires: CMakeFiles/security.dir/src/record.cpp.o.requires
 CMakeFiles/security.dir/requires: CMakeFiles/security.dir/src/main.cpp.o.requires
+CMakeFiles/security.dir/requires: CMakeFiles/security.dir/src/common.cpp.o.requires
 CMakeFiles/security.dir/requires: CMakeFiles/security.dir/src/que.cpp.o.requires
 
 .PHONY : CMakeFiles/security.dir/requires
