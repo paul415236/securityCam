@@ -1,0 +1,3 @@
+/home/paul/project/securityCam/build/CMakeFiles/edit_cache.dir
+/home/paul/project/securityCam/build/CMakeFiles/rebuild_cache.dir
+/home/paul/project/securityCam/build/CMakeFiles/security.dir

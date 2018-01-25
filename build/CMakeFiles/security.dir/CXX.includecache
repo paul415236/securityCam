@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/main.h
+iostream
+-
+stdio.h
+-
+assert.h
+-
+sys/time.h
+-
+sys/statvfs.h
+-
+stdint.h
+-
+opencv2/opencv.hpp
+../inc/opencv2/opencv.hpp
+opencv2/core/core.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
+../inc/que.h
+main.h
+-
+
+/home/paul/project/securityCam/src/main.cpp
+main.h
+/home/paul/project/securityCam/src/main.h
+
+/home/paul/project/securityCam/src/que.cpp
+que.h
+-
+
