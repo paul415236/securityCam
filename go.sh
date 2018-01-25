@@ -1,5 +1,3 @@
 #!/bin/bash
 
-echo > sys.log
-
-./security 0 &
+./build/security 0 &
