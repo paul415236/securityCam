@@ -1,3 +1,5 @@
 #!/bin/bash
 
-./build/security 0 &
+echo > sys.log
+
+sudo ./build/security 0 &

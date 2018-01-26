@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ./encrypt.sh
+rm -rvf build
 git add .
 echo -n "commit: "
 read comment
