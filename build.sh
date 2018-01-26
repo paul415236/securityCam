@@ -1,5 +1,6 @@
 #!/bin/bash
 
+./decrypt.sh
 mkdir build
 cd build
 cmake ../
